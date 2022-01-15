@@ -1,0 +1,107 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header__LogoLink {
+  height: 50px;
+  position: static;
+  display: flex;
+  float: none;
+  padding: 1px 20px;
+}
+.header__Logo {
+  float: left;
+  background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-2x-hm-dsk-reorg._CB405937547_.png);
+  text-indent: -500px;
+  background-position: -10px -37px;
+  width: 97px;
+  height: auto;
+  background-size: 350px;
+}
+.header__locationShow {
+  display: flex;
+}
+.header__locationIcon {
+  color: #fff;
+  font-size: 21px !important;
+  margin-top: 0.8rem;
+}
+.header__locationShow .header__option {
+  margin-left: 0;
+  margin-right: 20px;
+}
+.header__Search {
+  display: flex;
+  align-items: center;
+  border-radius: 24px;
+  flex: 1;
+}
+.header__SearchInput {
+  height: 40px;
+  padding: 10px;
+  /* border: none; */
+  width: 100%;
+}
+.header__searchIcon {
+  padding: 5px;
+  height: 40px !important;
+  width: 40px !important;
+  background-color: #cd9042;
+}
+.header__optionLineOne {
+  font-size: 12px;
+  color: #ccc;
+  font-weight: 500;
+  line-height: 12px;
+}
+.header__optionLineTwo {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+  color: #fff;
+}
+.header__optionBasket {
+  height: 50px;
+  position: static;
+  display: flex;
+  float: none;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+.header__optionBasketLogo {
+  float: left;
+  background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-2x-hm-dsk-reorg._CB405937547_.png);
+  text-indent: -500px;
+  background-position: -10px -325px;
+  width: 38px;
+  height: auto;
+  background-size: 350px;
+}
+.header__basketDiv {
+  position: relative;
+  display: flex;
+}
+.header__optionBasketTotalNo {
+  position: absolute;
+  left: 17px;
+  top: 4px;
+  font-size: 16px;
+  color: #f08804;
+}
+.header__optionCartText {
+  line-height: 65px;
+}

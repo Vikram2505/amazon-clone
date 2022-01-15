@@ -1,0 +1,85 @@
+.sellProduct .container{
+    max-width: calc(100% - 10%);
+}
+.fileUploadform{
+    width: 95%;
+    height: 100%;
+}
+#singleUploadFile{
+    border-radius: 15px;
+    background: #fff;
+    position: relative;
+    display: block;
+    font-size: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px dashed #ccc;
+    padding: 1rem 3rem;
+    box-shadow: rgb(0 0 0 / 9%) 0px 3px 6px, rgb(0 0 0 / 3%) 0px 3px 6px;
+}
+.fileUploadform .upload__text{
+    padding: 1rem; 
+    display: block; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    margin-bottom: 1rem; 
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 6px, rgba(0, 0, 0, 0.13) 0px 3px 6px;
+}
+input[type="file"].fileInputClass {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    outline: 0;
+    border: 1px solid red;
+    cursor: pointer;
+}
+.fileUploadform .uploadedImage {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background: #fff;
+    width: 100%;
+    border-radius: 15px;
+}
+.fileUploadform #previewImage{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.fileUploadform .uploadedImage::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(0,0,0,.4);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    border-radius: 15px;
+    top: 0;
+}
+.fileUploadform .uploadedImage:hover .removeImage{
+    opacity: 1;
+    z-index: 1;
+    transition: all 0.3s;
+}
+.fileUploadform .uploadedImage .removeImage {
+    background-color: #FFD814;
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    padding: 5px 10px; 
+    top: -115px;
+    position: relative;
+    left: 120px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.commonButton{
+    background-color: #FFD814;
+    border-color: #fcd200;
+    padding: 5px 1rem;
+    border-radius: 10px;
+}

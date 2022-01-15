@@ -1,0 +1,161 @@
+.login {
+  display: table;
+  margin: auto;
+  padding-top: 0.8rem;
+}
+.login__LogoLink {
+  height: 50px;
+  position: static;
+  display: table;
+  margin: auto;
+  float: none;
+  padding: 1px 20px;
+  align-items: center;
+}
+.login__Logo {
+  float: left;
+  background-image: url(https://m.media-amazon.com/images/S/sash/mPGmT0r6IeTyIee.png);
+  text-indent: -500px;
+  background-position: -1px -107px;
+  width: 95px;
+  height: 36px;
+  background-size: 350px;
+}
+.login__LogoDomain {
+  float: left;
+  background-image: url(https://m.media-amazon.com/images/S/sash/mPGmT0r6IeTyIee.png);
+  text-indent: -500px;
+  background-position: -227px -196px;
+  width: 16px;
+  height: 28px;
+  background-size: 400px 750px;
+}
+.login__container {
+  width: 350px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid lightgray;
+}
+.login__container > h1 {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.login__container > form > h5 {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.login__container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  width: 98%;
+  background-color: #fff;
+}
+.login__container > form > button {
+  background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+  border-color: #a88734 #9c7e31 #846a29;
+  border-radius: 2px;
+  width: 100%;
+  border: 1px solid;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.login__container > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.login__registerButton {
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  background-color: #e7e9ec;
+  font-size: 12px;
+  border-color: darkgray;
+  cursor: pointer;
+}
+.a-input-text.a-form-focus, .a-input-text:focus, input[type=text].a-form-focus, input[type=text]:focus, input[type=number].a-form-focus, input[type=number]:focus, input[type=tel].a-form-focus, input[type=tel]:focus, input[type=password].a-form-focus, input[type=password]:focus, input[type=search].a-form-focus, input[type=search]:focus, select.a-select-multiple.a-form-focus, select.a-select-multiple:focus, textarea.a-form-focus, textarea:focus{
+  border-color: #e77600;
+  box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+} 
+.a-input-text, input[type=text], input[type=number], input[type=tel], input[type=password], input[type=search], select.a-select-multiple, textarea{
+  border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+    outline: 0;
+}
+.a_divider_inner{
+  height: 30px;
+    margin-bottom: -18px;
+    background: -webkit-linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+    background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+    zoom: 1;
+}
+.a_divider_inner::after{
+  display: block;
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    background: -webkit-linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
+    background: linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
+    z-index: 1;
+    content: "";
+}
+.a_divider_break{
+  text-align: center;
+  position: relative;
+  top: 15px;
+  padding-top: 1px;
+  margin-bottom: 20px;
+  line-height: 0;
+}
+.a_divider_break h5{
+  line-height: 1;
+  font-size: 12px;
+  margin-bottom: 0;
+  color: #767676;
+  font-weight: 400;
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+  background-color: #eaeded;
+  padding: 0 8px 0 7px;
+}
+.a_divider_break::after{
+  content: "";
+  width: 100%;
+  background-color: transparent;
+  display: block;
+  height: 1px;
+  border-top: 1px solid #fff;
+  position: absolute;
+  top: 50%;
+  margin-top: -1px;
+  z-index: 1;
+} 
+.register__alreadyText p{
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: .8rem;
+}
+.register a{
+  color: #0066c0 !important;
+}
+.register a:hover{
+  text-decoration: underline;
+    cursor: pointer;
+    color: #c45500 !important;
+}
+.register__eyePassword{
+   position: absolute;
+   top :0;
+   right : 15px;
+   cursor: pointer;
+}

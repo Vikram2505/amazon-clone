@@ -1,0 +1,25 @@
+.checkout {
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  height: max-content;
+  justify-content: space-between;
+}
+.checkout__title {
+  margin-right: 10px;
+  padding: 10px;
+  padding-top: 0;
+  padding-left: 0;
+  font-size: 25px;
+  border-bottom: 1px solid lightgray;
+}
+.checkout__card {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+.checkout__cardImage > img {
+  width: 150px;
+  height: auto;
+}
